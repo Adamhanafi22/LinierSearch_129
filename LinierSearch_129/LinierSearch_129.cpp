@@ -38,7 +38,7 @@ void LinearSearch()
 		int item;
 		cin >> item;
 		
-		comparison = 0;
+		comparison = 0; 
 		for (i = 0; i < n; i++)
 		{
 			comparison++;
