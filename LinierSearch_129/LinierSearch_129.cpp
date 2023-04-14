@@ -36,5 +36,19 @@ void LinearSearch()
 	{
 		cout << "\nEnter the you want to search: ";
 		int item;
+		cin >> item;
+		
+		comparison = 0;
+		for (i = 0; i < n; i++)
+		{
+			comparison++;
+			if (arr[i] == item)
+			{
+				cout << "\n" << item << "found at position" << (i + 1) << endl;
+				break;
+			}
+		}
+
+		
 	}
 }
